@@ -1,10 +1,10 @@
-# Project 9 - Front-end Dashboard
+# Project 12 - SportSee - Backend
 
 This repo contains all the source code to run the micro API for the sports analytics dashboard SportSee.
 
 ## 1. General information
 
-To start this project, you are free to use Docker or not. In this documentation, we will see several methods to launch the project easily.
+To start the API, you are free to use Docker or not. In this documentation, we will see several methods to launch the API easily.
 
 ## 2. Project (**without Docker**)
 
@@ -38,7 +38,7 @@ If you are working with several versions of NodeJS, we recommend you install [nv
 
 ### 2.3 Vscode and container remotes
 
-Finally, if you have VsCode, you can easily launch your project in a docker environment.
+Finally, if you have VsCode, you can easily launch the API in a docker environment.
 
 You will need the [Remote Development extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). Once you have this extension installed, just click on the `Reopen in Container` button.
 
