@@ -6,7 +6,7 @@ This repo contains all the source code to run the micro API for the sports analy
 
 To start the API, you are free to use Docker or not. In this documentation, we will see several methods to launch the API easily.
 
-## 2. Project (**without Docker**)
+## 2. Without Docker
 
 ### 2.1 Prerequisites
 
@@ -15,7 +15,7 @@ To start the API, you are free to use Docker or not. In this documentation, we w
 
 If you are working with several versions of NodeJS, we recommend you install [nvm](https://github.com/nvm-sh/nvm). This tool will allow you to easily manage your NodeJS versions.
 
-### 2.2 Launching the project
+### 2.2 Launching the API
 
 - Fork the repository
 - Clone it on your computer.
@@ -23,13 +23,13 @@ If you are working with several versions of NodeJS, we recommend you install [nv
 - The `yarn dev` command will allow you to run the micro API.
 
 
-## 3. Project (**with Docker**)
+## 3. With Docker
 
-### 2.1 Prerequisites
+### 3.1 Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-### 2.2 Starting the project
+### 3.2 Starting the API
 
 - The `docker image build --no-cache -t micro-api .` command will allow you to build your image.
 - The `docker container run --name micro-api -p 3000:3000 -dt micro-api yarn` command will allow you to create your Docker container and run your image on port 3000.
