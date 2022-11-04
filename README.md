@@ -36,7 +36,7 @@ If you are working with several versions of NodeJS, we recommend you install [nv
 - The `docker container stop micro-api` command will allow you to stop your micro-api.
 - The `docker container rm micro-api` command will allow you to delete your micro-api container.
 
-### 2.3 Vscode and container remotes
+### 3.3 Vscode and container remotes
 
 Finally, if you have VsCode, you can easily launch the API in a docker environment.
 
